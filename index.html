@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>Анатомия комнаты — ReSpace</title>
+<meta name="description" content="Визуальное исследование малого жилья и знакомство с ReSpace: вечер в студии 25 м², чай и разговор о том, как устроена маленькая квартира.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:title" content="Анатомия комнаты — ReSpace">
+<meta property="og:description" content="Вечер в студии 25 м²: чай и разговор о том, как устроена маленькая квартира и почему дело не в метрах.">
+<meta property="og:image" content="assets/img/og-facade.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#F4EEE5" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#181512" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=PT+Serif:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+<script>if (!matchMedia('(prefers-reduced-motion: reduce)').matches) document.documentElement.classList.add('motion');</script>
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body data-mode="cozy">
+<a class="skip" href="#main">Перейти к содержанию</a>
+
+<header class="site-header">
+  <div class="wrap site-header__in">
+    <a class="wordmark" href="#s1">ReSpace</a>
+    <div class="site-header__tools">
+      <time class="clock" id="clock" datetime="19:00">19:00</time>
+      <button class="mode" id="mode" type="button" aria-pressed="false">
+        <span class="mode__cozy">Уют</span><span class="mode__sep" aria-hidden="true">/</span><span class="mode__plan">Чертёж</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="screen screen--hall is-night" id="s1" aria-labelledby="s1-title">
+  <div class="scene" data-scene="hall" data-pin style="--len:2.8">
+  <div class="stage">
+  <div class="wrap grid">
+    <div class="hall__head" data-fade style="--d:1/7; --t:1/-1">
+      <h1 class="display" id="s1-title">Заходи, разувайся</h1>
+      <p class="lead">Здесь немного тесно, но мы как раз об этом и поговорим</p>
+    </div>
+    <figure class="hall__facade" data-scene="hall-m" data-mpin data-mtrack="parent" style="--d:7/-1; --t:1/-1">
+      <div class="facade"><div class="facade__zoom"><picture><source type="image/avif" srcset="assets/img/01_facade-900.avif 900w, assets/img/01_facade-1600.avif 1600w" sizes="(min-width: 1024px) 50vw, 100vw"><img fetchpriority="high" src="assets/img/01_facade-1600.webp" srcset="assets/img/01_facade-900.webp 900w, assets/img/01_facade-1600.webp 1600w" sizes="(min-width: 1024px) 50vw, 100vw" width="1600" height="900" alt="Ночной фасад панельного дома: сетка одинаковых окон, около трети светятся тёплым светом, одно окно на четвёртом этаже горит ярче остальных."></picture><video class="life" data-life="windows" data-src="assets/loops/web/windows.mp4" data-webm="assets/loops/web/windows.webm" muted playsinline loop preload="none" aria-hidden="true"></video><svg class="life-fallback facade__blink" viewBox="0 0 1600 900" aria-hidden="true"><rect x="333" y="220" width="58" height="100"/><rect x="937" y="569" width="58" height="100"/><rect x="576" y="744" width="58" height="100"/></svg><svg class="facade__lights" viewBox="0 0 1600 900" aria-hidden="true"><rect x="576" y="395" width="58" height="100"/><rect x="817" y="744" width="58" height="100"/><rect x="454" y="220" width="58" height="100"/><rect x="1057" y="569" width="58" height="100"/><rect x="1328" y="395" width="58" height="100"/><rect x="212" y="744" width="58" height="100"/><rect x="696" y="220" width="58" height="100"/><rect x="696" y="569" width="58" height="100"/><rect x="333" y="395" width="58" height="100"/><rect x="1196" y="744" width="58" height="100"/><rect x="212" y="220" width="58" height="100"/><rect x="817" y="569" width="58" height="100"/><rect x="937" y="395" width="58" height="100"/><rect x="576" y="744" width="58" height="100"/></svg></div><picture><source type="image/avif" srcset="assets/img/00_anchor-900.avif 900w, assets/img/00_anchor-1600.avif 1600w" sizes="(min-width: 1024px) 66vw, 100vw"><img class="facade__room" src="assets/img/00_anchor-1600.webp" srcset="assets/img/00_anchor-900.webp 900w, assets/img/00_anchor-1600.webp 1600w" sizes="(min-width: 1024px) 66vw, 100vw" width="1600" height="893" alt="" aria-hidden="true" loading="lazy"></picture></div>
+      <figcaption class="caption" data-fade>Студия 25 м², четвёртый этаж. Свет горит, значит, дома кто-то есть.</figcaption>
+    </figure>
+    <div class="prose hall__text" data-fade style="--d:1/7; --t:1/7">
+      <p>Видишь окна напротив? За каждым кто-то сейчас ужинает, разбирает сумку после работы или просто лежит и смотрит в потолок. У большинства из них квартира примерно как моя: одна комната, в которой надо уместить всю жизнь.</p>
+      <p>Я долго думала, почему в маленьком пространстве иногда так хорошо, а иногда хочется сбежать. Оказалось, дело не в метрах. Давай я поставлю чайник и всё расскажу.</p>
+    </div>
+    <a class="hint" data-fade href="#s2" style="--d:7/-1; --t:1/-1"><svg viewBox="0 0 12 24" aria-hidden="true"><path d="M6 0v22M1 17l5 5 5-5"/></svg>Пройти в комнату</a>
+  </div>
+  <div class="hall__room" aria-hidden="true">
+    <picture><source type="image/avif" srcset="assets/img/00_anchor-900.avif 900w, assets/img/00_anchor-1600.avif 1600w" sizes="100vw"><img class="cozy-only" src="assets/img/00_anchor-1600.webp" srcset="assets/img/00_anchor-900.webp 900w, assets/img/00_anchor-1600.webp 1600w" sizes="100vw" width="1600" height="893" alt="" loading="lazy"></picture>
+    <div class="plan-only plan-box" data-plan="good" data-opts="dims"></div>
+  </div>
+  </div>
+  </div>
+</section>
+
+<section class="screen screen--kettle" id="s2" data-scene="kettle" aria-labelledby="s2-title">
+  <div class="wrap grid">
+    <h2 id="s2-title" style="--d:1/9">Как мы все оказались в однушках</h2>
+    <figure class="plan" style="--d:1/10; --t:1/-1">
+      <div class="plan-only plan-box" data-plan="good" data-opts="dims passage kitchen"></div>
+      <picture><source type="image/avif" srcset="assets/img/00_anchor-900.avif 900w, assets/img/00_anchor-1600.avif 1600w" sizes="(min-width: 1024px) 66vw, 100vw"><img class="cozy-only" src="assets/img/00_anchor-1600.webp" srcset="assets/img/00_anchor-900.webp 900w, assets/img/00_anchor-1600.webp 1600w" sizes="(min-width: 1024px) 66vw, 100vw" width="1600" height="893" alt="Студия сверху: шкаф, стол-трансформер у левого окна с двумя кружками чая, кухня вдоль верхней стены, стеллаж и кровать слева, кресло с торшером, дверь в правой стене."></picture>
+      <div class="kitchen-light cozy-only" data-p aria-hidden="true"></div>
+    </figure>
+    <div class="margin-notes" style="--d:10/-1; --t:1/-1">
+      <ul class="notes" data-p data-stagger aria-label="Пометки на полях">
+        <li class="note"><span class="note__num">54%</span> строящихся квартир — однокомнатные</li>
+        <li class="note"><span class="note__num">36 м²</span> — средняя массовая однушка в 2026 году</li>
+        <li class="note"><span class="note__num">15%</span> — доля студий в крупнейших городах (в 2023-м было 20%)</li>
+      </ul>
+    </div>
+    <div class="prose kettle__text" style="--d:1/7; --t:1/-1">
+      <p>Пока закипает вода, немного о том, почему эта тема вообще про многих.</p>
+      <p>Сейчас больше половины квартир, которые строятся в России, однокомнатные: по данным Дом.РФ, около 54%. При этом сами квартиры за пять лет стали меньше. Массовая двушка потеряла пару метров, трёшка четыре, а однушка бизнес-класса уменьшилась сразу на восемь.</p>
+      <p>Москва с 2024 года не согласует квартиры меньше 28 м², с 2026-го то же решила Ленинградская область. Минстрой советовал регионам сделать так же, но это осталось рекомендацией. Студии от этого не исчезли, они просто чуть подросли: в московском комфорт-классе в среднем с 24 до 26 метров.</p>
+      <p>Получается, маленькая квартира никуда не денется. И мне кажется, пора перестать воспринимать её как временный этап. В ней живут годами, и жить там должно быть хорошо.</p>
+    </div>
+    <div class="kettle__aside" style="--d:8/-1; --t:1/-1">
+    <div class="passport-block">
+      <h3 class="passport__title">Паспорт комнаты</h3>
+      <dl class="passport">
+        <div><dt>Площадь</dt><dd>25,0 м²</dd></div>
+        <div><dt>Размеры</dt><dd>590 × 424 см</dd></div>
+        <div><dt>Окна</dt><dd>2</dd></div>
+        <div><dt>Дверь</dt><dd>1</dd></div>
+        <div><dt>Проход</dt><dd>90 см</dd></div>
+      </dl>
+      <p class="tip">нажми «Чертёж», чтобы увидеть комнату изнутри</p>
+    </div>
+    <figure class="kettle__pot">
+      <div class="pot"><picture><source type="image/avif" srcset="assets/img/10_kettle-900.avif 900w, assets/img/10_kettle-1600.avif 1600w" sizes="(min-width: 1024px) 40vw, 100vw"><img src="assets/img/10_kettle-1600.webp" srcset="assets/img/10_kettle-900.webp 900w, assets/img/10_kettle-1600.webp 1600w" sizes="(min-width: 1024px) 40vw, 100vw" width="1600" height="904" alt="Чёрный чайник на двухконфорочной плите, рядом кружка и жестяная банка с чаем, тёплый свет лампы сбоку." loading="lazy"></picture><video class="life" data-life="steam" data-src="assets/loops/web/steam.mp4" data-webm="assets/loops/web/steam.webm" muted playsinline loop preload="none" aria-hidden="true"></video><svg class="life-fallback pot__steam" viewBox="0 0 1600 904" aria-hidden="true"><path d="M640 380c-20-40 30-70 0-120s20-80 0-130"/><path d="M670 370c-20-40 30-70 0-120s20-80 0-130"/></svg></div>
+      <figcaption class="quiet">Чайник почти готов.</figcaption>
+    </figure>
+    </div>
+  </div>
+</section>
+
+<section class="screen screen--table" id="s3" data-scene="table" data-range="pass" aria-labelledby="s3-title">
+  <div class="years" data-p aria-hidden="true"><span>1918</span><span>1928</span><span>1957</span></div>
+  <div class="wrap grid">
+    <h2 id="s3-title" style="--d:1/9">У этого разговора длинная <svg class="icon icon--mug" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h12v7a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4z"/><path d="M16 10h2a2 2 0 0 1 0 4h-2"/><path d="M8 3.5v2M12 3.5v2"/></svg> история</h2>
+    <p class="intro" style="--d:1/7; --t:1/-1">Садись, вот сюда, к окну. Пока пьём чай, расскажу, что меня удивило: спорить о маленьком жилье начали задолго до нас.</p>
+    <ol class="timeline" data-p data-stagger style="--d:1/-1">
+      <li><span class="timeline__year">1918.</span> Первые санитарные нормы: десять метров на взрослого, пять на ребёнка.</li>
+      <li><span class="timeline__year">1928–1930.</span> Дом Наркомфина Моисея Гинзбурга. Квартиры там совсем маленькие, зато в доме общая кухня, прачечная, ясли и библиотека. Архитекторы решили, что часть жизни можно вынести из квартиры в общее пространство.</li>
+      <li><span class="timeline__year">1957.</span> Начинают строить хрущёвки. Минимум для однушки 16 метров. Тесно, но у каждой семьи появляется своя дверь.</li>
+      <li><span class="timeline__year">Сейчас.</span> Хрущёвки — примерно десятая часть всего жилья в стране. Кто-то из нас в них вырос.</li>
+    </ol>
+    <div class="prose" style="--d:1/7; --t:1/-1">
+      <p>Помнишь кухню у бабушки? Там было места на одного, но почему-то помещались все. Мне кажется, в этом секрет: квартира работает, когда понятно, что в ней происходит и где.</p>
+    </div>
+    <p class="statement" style="--d:7/-1; --t:1/-1">Хрущёвки решили задачу «дать дом каждому». А как в этом доме жить, людям пришлось придумывать самим. Этот вопрос, по-моему, до сих пор открыт.</p>
+  </div>
+</section>
+
+<section class="screen screen--morning" id="s4" data-scene="morning" aria-labelledby="s4-title">
+  <div class="wrap grid">
+    <h2 id="s4-title" style="--d:1/9">Когда работа живёт рядом с кроватью</h2>
+    <div class="prose" style="--d:1/6; --t:1/-1">
+      <p>Утром эта комната становится офисом. Ноутбук на столе, кровать за спиной, и где-то к обеду уже непонятно, отдыхаешь ты или работаешь.</p>
+      <p>Мне попалось исследование, которое это хорошо объясняет. В 2020 году, во время локдауна, учёные из Милана опросили больше восьми тысяч студентов и сравнили, как они живут и как себя чувствуют.</p>
+      <p>Маленькая квартира действительно немного повышала риск подавленного состояния. Но гораздо сильнее влияло другое: насколько удобно устроено пространство и получается ли дома нормально работать.</p>
+    </div>
+    <figure class="chart" style="--d:7/-1; --t:1/-1" aria-labelledby="chart-cap">
+      <ol class="bars" data-p data-stagger>
+        <li style="--v:1.31"><span class="bars__label">Квартира меньше 60 м²</span><span class="bars__track"><span class="bars__bar"></span><span class="bars__value">1,31</span></span></li>
+        <li style="--v:1.37"><span class="bars__label">Плохой вид из окна</span><span class="bars__track"><span class="bars__bar"></span><span class="bars__value">1,37</span></span></li>
+        <li class="is-key" style="--v:2.25"><span class="bars__label">Неудобно устроенное пространство</span><span class="bars__track"><span class="bars__bar"></span><span class="bars__value">2,25</span></span></li>
+        <li class="is-key" style="--v:4.28"><span class="bars__label">Дома плохо работается</span><span class="bars__track"><span class="bars__bar"></span><span class="bars__value">4,28</span></span>
+          <span class="note note--chart">вот это меня и зацепило</span></li>
+      </ol>
+      <div class="axis" aria-hidden="true"><span style="--x:0">0</span><span style="--x:1">1</span><span style="--x:2">2</span><span style="--x:3">3</span><span style="--x:4">4</span></div>
+      <figcaption class="caption" id="chart-cap">Во сколько раз выше вероятность выраженных симптомов. Исследование показывает связь, а не причину.</figcaption>
+    </figure>
+    <figure class="plan-only morning__plan" style="--d:1/7; --t:1/-1">
+      <div class="plan-box" data-plan="work" data-opts="distance focus=desk"></div>
+    </figure>
+    <p class="statement" style="--d:1/9; --t:1/-1">Для меня это главная мысль всего лонгрида. Метры не докупишь. А передвинуть стол к окну и отделить его от кровати хотя бы стеллажом можно уже в эти выходные.</p>
+  </div>
+</section>
+
+<section class="screen screen--drawers" id="s5" aria-labelledby="s5-title">
+  <div class="wrap grid">
+    <h2 id="s5-title" style="--d:1/9">Открою тебе шкаф</h2>
+    <div class="wardrobe-row" data-scene="wardrobe" data-range="track" data-static="1" style="--d:1/-1">
+    <div class="prose" >
+      <p>Да, тут всё по коробочкам. Я научилась этому, когда смотрела, как живут в городах, где места ещё меньше.</p>
+      <p>В Токио обычная квартира для одного человека занимает 20–25 метров, а бывает и 13. Комнаты до сих пор меряют татами, это около 1,65 м². Японцы спокойно относятся к тому, что часть жизни проходит вне дома: в кафе, в бане, в библиотеке.</p>
+      <p>В Гонконге одно время продавали «нано-квартиры» меньше 19 метров, некоторые около двенадцати. В итоге власти ввели минимум 26 метров для жилья на государственной земле. А во Франции нельзя сдавать комнату меньше девяти метров.</p>
+      <p>И моя любимая история. У Ле Корбюзье был летний домик на берегу моря, три шестьдесят шесть на три шестьдесят шесть. Он рассчитал каждый сантиметр под рост человека: две кровати, стол, шкаф, хранение под потолком. Работал он в соседней хижине, обедал в кафе рядом и проводил там каждое лето до конца жизни.</p>
+    </div>
+    <figure class="wardrobe" aria-label="Шкаф открывается: внутри всё по местам — коробки, полки, вешалки и обувь">
+      <picture><source type="image/avif" srcset="assets/img/16_wardrobe-closed-900.avif 900w, assets/img/16_wardrobe-closed-1600.avif 1600w" sizes="(min-width: 1024px) 40vw, 100vw"><img class="wardrobe__closed" src="assets/img/16_wardrobe-closed-1600.webp" srcset="assets/img/16_wardrobe-closed-900.webp 900w, assets/img/16_wardrobe-closed-1600.webp 1600w" sizes="(min-width: 1024px) 40vw, 100vw" width="1600" height="893" alt="Светлый дубовый шкаф с закрытыми дверцами у тёплой белой стены." loading="lazy"></picture>
+      <picture><source type="image/avif" srcset="assets/img/17_wardrobe-open-900.avif 900w, assets/img/17_wardrobe-open-1600.avif 1600w" sizes="(min-width: 1024px) 40vw, 100vw"><img class="wardrobe__open" src="assets/img/17_wardrobe-open-1600.webp" srcset="assets/img/17_wardrobe-open-900.webp 900w, assets/img/17_wardrobe-open-1600.webp 1600w" sizes="(min-width: 1024px) 40vw, 100vw" width="1600" height="893" alt="Тот же шкаф открыт: наверху коробки, рубашки и пальто на вешалках, стопки свитеров и полотенец, корзины, внизу обувь." loading="lazy"></picture>
+      <canvas class="wardrobe__canvas" aria-hidden="true"></canvas>
+    </figure>
+    </div>
+    <p class="statement" style="--d:8/-1; --t:1/-1">Везде, где в маленьком доме хорошо, у каждой вещи есть своё место. Всё, что можно, уходит наверх и за дверцы. А то, что не помещается, спокойно живёт за пределами квартиры.</p>
+
+    <h3 class="subhead" style="--d:1/9">Сколько метров нужно для жизни</h3>
+    <p class="intro" style="--d:1/7; --t:1/-1">Я нарисовала в одном масштабе, сколько места считали «достаточным» в разные времена и в разных странах. Посмотри на квадратики, это неожиданно наглядно.</p>
+    <figure class="organizer" data-scene="drawers" style="--d:1/-1">
+      <ul class="organizer__cells" data-stagger>
+        <li class="cell is-norm" style="--a:9"><svg viewBox="0 0 640 640" aria-hidden="true"><rect class="sq" x="20" y="320" width="300" height="300"/><g class="ruler"><path d="M420 90v24M420 102h100M520 90v24"/><text x="470" y="72">1 м</text></g></svg><p><b>9 м²</b> — минимальная комната в аренду во Франции</p></li>
+        <li class="cell" style="--a:12"><svg viewBox="0 0 640 640" aria-hidden="true"><rect class="sq" x="20" y="273.6" width="346.4" height="346.4"/></svg><p><b>12 м²</b> — самая маленькая нано-квартира в Гонконге</p></li>
+        <li class="cell" style="--a:13.4"><svg viewBox="0 0 640 640" aria-hidden="true"><rect class="sq" x="20" y="253.9" width="366.1" height="366.1"/></svg><p><b>13,4 м²</b> — домик Ле Корбюзье</p></li>
+        <li class="cell is-norm" style="--a:16"><svg viewBox="0 0 640 640" aria-hidden="true"><rect class="sq" x="20" y="220" width="400" height="400"/></svg><p><b>16 м²</b> — однушка-хрущёвка по нормам 1957 года</p></li>
+        <li class="cell" style="--a:22"><svg viewBox="0 0 640 640" aria-hidden="true"><rect class="sq" x="20" y="150.9" width="469.1" height="469.1"/></svg><p><b>20–25 м²</b> — квартира для одного в Токио</p></li>
+        <li class="cell is-ours" style="--a:25"><svg viewBox="0 0 640 640" aria-hidden="true"><rect class="sq" x="20" y="120" width="500" height="500"/></svg><p><b>25 м²</b> — моя студия</p></li>
+        <li class="cell is-norm" style="--a:28"><svg viewBox="0 0 640 640" aria-hidden="true"><rect class="sq" x="20" y="90.8" width="529.2" height="529.2"/></svg><p><b>28 м²</b> — минимум для новых квартир в Москве</p></li>
+        <li class="cell" style="--a:36"><svg viewBox="0 0 640 640" aria-hidden="true"><rect class="sq" x="20" y="20" width="600" height="600"/></svg><p><b>36 м²</b> — средняя однушка в России сегодня</p></li>
+      </ul>
+    </figure>
+    <p class="statement" style="--d:1/9; --t:1/-1">Моя студия где-то посередине. Не самая маленькая, не самая большая. И я всё больше убеждаюсь, что ответа на вопрос «сколько метров нужно» не существует. Есть вопрос, как ими распорядиться.</p>
+  </div>
+</section>
+
+<section class="screen screen--before" id="s6" aria-labelledby="s6-title">
+  <div class="wrap grid">
+    <h2 id="s6-title" style="--d:1/9">Давай я покажу, как было месяц назад</h2>
+    <div class="prose" style="--d:1/7; --t:1/-1">
+      <p>Сейчас тут уютно, но так было не сразу. Сразу после переезда я расставила мебель как пришлось, и на фото всё выглядело нормально. А жить было неудобно, и я долго не могла понять почему.</p>
+      <p>Листай дальше, я расскажу.</p>
+    </div>
+    <div class="scene" data-scene="before" data-pin data-mpin data-static="0.5" style="--d:1/-1; --len:3.4">
+    <div class="stage">
+    <div class="stage__grid">
+    <figure class="before__plan">
+      <div class="plan-only plan-box" data-plan="morph"></div>
+      <div class="photo cozy-only">
+        <picture><source type="image/avif" srcset="assets/img/08_before-900.avif 900w, assets/img/08_before-1600.avif 1600w" sizes="(min-width: 1024px) 66vw, 100vw"><img class="cozy-only" src="assets/img/08_before-1600.webp" srcset="assets/img/08_before-900.webp 900w, assets/img/08_before-1600.webp 1600w" sizes="(min-width: 1024px) 66vw, 100vw" width="1600" height="893" alt="Та же студия месяц назад: кровать вплотную к шкафу, рабочий стол у глухой стены, длинный диван зажимает проход к кухне, круглый стол завален коробками и бумагами." loading="lazy"></picture>
+        <picture><source type="image/avif" srcset="assets/img/00_anchor-900.avif 900w, assets/img/00_anchor-1600.avif 1600w" sizes="(min-width: 1024px) 66vw, 100vw"><img class="photo__after" src="assets/img/00_anchor-1600.webp" srcset="assets/img/00_anchor-900.webp 900w, assets/img/00_anchor-1600.webp 1600w" sizes="(min-width: 1024px) 66vw, 100vw" width="1600" height="893" alt="" aria-hidden="true" loading="lazy"></picture>
+        <span class="photo-mark" style="left:67%;top:54%">01</span>
+        <span class="photo-mark" style="left:14.5%;top:22%">02</span>
+        <span class="photo-mark" style="left:50%;top:86%">03</span>
+        <span class="photo-mark" style="left:75%;top:43%">04</span>
+      </div>
+    </figure>
+    <ol class="conflicts">
+      <li><span class="conflicts__num">01.</span> <b>Проход.</b> Между диваном и стеной оставалось сантиметров тридцать. Каждый вечер с пакетами я пробиралась к кухне боком.</li>
+      <li><span class="conflicts__num">02.</span> <b>Шкаф.</b> Кровать стояла слишком близко, и дверца открывалась наполовину. Вещи я доставала на ощупь.</li>
+      <li><span class="conflicts__num">03.</span> <b>Свет.</b> Рабочий стол стоял у глухой стены, в трёх с половиной метрах от окна. Лампу приходилось включать даже днём.</li>
+      <li><span class="conflicts__num">04.</span> <b>Стол.</b> Обеденный стол был ещё и рабочим, и складом. Чтобы поужинать, сначала надо было всё с него убрать.</li>
+    </ol>
+    </div>
+    </div>
+    </div>
+    <p class="statement" style="--d:1/9; --t:1/-1">Ни одна из этих проблем не видна на красивой картинке. Их чувствуешь только руками и ногами, когда живёшь.</p>
+  </div>
+</section>
+
+<section class="screen screen--evenings" id="s7" aria-labelledby="s7-title">
+  <div class="wrap grid">
+    <h2 id="s7-title" style="--d:1/9">А теперь смотри, что она умеет</h2>
+    <p class="intro" style="--d:1/7; --t:1/-1">Кровать, кухня и шкаф остаются на месте. Меняется только стол, который складывается и раскладывается, пара складных стульев и штора, которая прячет спальное место. И этого хватает, чтобы комната каждый вечер была немного другой.</p>
+    <div class="scene" data-scene="evenings" data-pin data-mpin style="--d:1/-1; --len:5">
+    <div class="stage">
+    <ol class="evenings">
+      <li class="evening">
+        <figure><picture><source type="image/avif" srcset="assets/img/03_evening-work-900.avif 900w, assets/img/03_evening-work-1600.avif 1600w" sizes="(min-width: 1024px) 66vw, 100vw"><img class="cozy-only" src="assets/img/03_evening-work-1600.webp" srcset="assets/img/03_evening-work-900.webp 900w, assets/img/03_evening-work-1600.webp 1600w" sizes="(min-width: 1024px) 66vw, 100vw" width="1600" height="893" alt="Вечер «работаю»: стол у левого окна с ноутбуком и кружкой, один стул, штора задёрнута вдоль кровати, дневной свет." loading="lazy"></picture><div class="plan-only plan-box" data-plan="work"></div><figcaption class="plan-only counter" data-area="work">Мебель занимает <span data-occupied></span> м². Свободно <span data-free></span> м².</figcaption></figure>
+        <p><b>Работаю.</b> Стол переезжает к окну, штора закрыта. Работа больше не живёт рядом со сном.</p>
+      </li>
+      <li class="evening">
+        <figure><picture><source type="image/avif" srcset="assets/img/04_evening-rest-900.avif 900w, assets/img/04_evening-rest-1600.avif 1600w" sizes="(min-width: 1024px) 66vw, 100vw"><img class="cozy-only" src="assets/img/04_evening-rest-1600.webp" srcset="assets/img/04_evening-rest-900.webp 900w, assets/img/04_evening-rest-1600.webp 1600w" sizes="(min-width: 1024px) 66vw, 100vw" width="1600" height="893" alt="Вечер «отдыхаю»: стол сложен в узкую консоль у правой стены, на полу коврик для йоги, горит только торшер у кресла." loading="lazy"></picture><div class="plan-only plan-box" data-plan="rest"></div><figcaption class="plan-only counter" data-area="rest">Мебель занимает <span data-occupied></span> м². Свободно <span data-free></span> м².</figcaption></figure>
+        <p><b>Отдыхаю.</b> Стол складывается в узкую консоль у стены. На полу хватает места для коврика, горит только торшер у кресла.</p>
+      </li>
+      <li class="evening">
+        <figure><picture><source type="image/avif" srcset="assets/img/05_evening-guests-900.avif 900w, assets/img/05_evening-guests-1600.avif 1600w" sizes="(min-width: 1024px) 66vw, 100vw"><img class="cozy-only" src="assets/img/05_evening-guests-1600.webp" srcset="assets/img/05_evening-guests-900.webp 900w, assets/img/05_evening-guests-1600.webp 1600w" sizes="(min-width: 1024px) 66vw, 100vw" width="1600" height="893" alt="Вечер «жду гостей»: стол разложен посреди комнаты, вокруг шесть складных стульев, тарелки и чайник, кровать за шторой." loading="lazy"></picture><div class="plan-only plan-box" data-plan="guests"></div><figcaption class="plan-only counter" data-area="guests">Мебель занимает <span data-occupied></span> м². Свободно <span data-free></span> м².</figcaption></figure>
+        <p><b>Жду гостей.</b> Стол раскладывается на шестерых, кровать за шторой. На вечер это уже гостиная, и проход к двери свободен.</p>
+      </li>
+      <li class="evening">
+        <figure><picture><source type="image/avif" srcset="assets/img/06_evening-craft-900.avif 900w, assets/img/06_evening-craft-1600.avif 1600w" sizes="(min-width: 1024px) 66vw, 100vw"><img class="cozy-only" src="assets/img/06_evening-craft-1600.webp" srcset="assets/img/06_evening-craft-900.webp 900w, assets/img/06_evening-craft-1600.webp 1600w" sizes="(min-width: 1024px) 66vw, 100vw" width="1600" height="893" alt="Вечер «делаю что-то руками»: большой стол у окна с бумагой и инструментами, в центре свободный пол с зелёным ковриком для резки." loading="lazy"></picture><div class="plan-only plan-box" data-plan="craft"></div><figcaption class="plan-only counter" data-area="craft">Мебель занимает <span data-occupied></span> м². Свободно <span data-free></span> м².</figcaption></figure>
+        <p><b>Делаю что-то руками.</b> Большой стол у окна для рисования или шитья, а в центре свободный пол, чтобы что-то разложить.</p>
+      </li>
+      <li class="evening">
+        <figure><picture><source type="image/avif" srcset="assets/img/07_evening-empty-900.avif 900w, assets/img/07_evening-empty-1600.avif 1600w" sizes="(min-width: 1024px) 66vw, 100vw"><img class="cozy-only" src="assets/img/07_evening-empty-1600.webp" srcset="assets/img/07_evening-empty-900.webp 900w, assets/img/07_evening-empty-1600.webp 1600w" sizes="(min-width: 1024px) 66vw, 100vw" width="1600" height="893" alt="Вечер «ничего не делаю»: стол сложен в консоль, стулья висят на стене, посреди комнаты пустой пол, горит одна маленькая лампа." loading="lazy"></picture><div class="plan-only plan-box" data-plan="empty"></div><figcaption class="plan-only counter" data-area="empty">Мебель занимает <span data-occupied></span> м². Свободно <span data-free></span> м².</figcaption></figure>
+        <p><b>Ничего не делаю.</b> Всё сложено, стулья висят на стене. Посреди комнаты три метра пустого пола. Иногда это и есть самое ценное.</p>
+      </li>
+    </ol>
+    </div>
+    </div>
+  </div>
+</section>
+
+<section class="screen screen--opposite is-night" id="s8" data-scene="opposite" aria-labelledby="s8-title">
+  <div class="wrap grid">
+    <figure class="oval" data-p style="--d:1/6; --t:2/8">
+      <svg viewBox="0 0 320 420" role="img" aria-labelledby="oval-title">
+        <title id="oval-title">Овальное окно, в нём фасад дома напротив в сумерках: несколько окон светятся, в них лампы и силуэты людей.</title>
+        <defs>
+          <clipPath id="oval-clip"><ellipse cx="160" cy="210" rx="124" ry="172"/></clipPath>
+          <path id="oval-path" d="M18 210a142 192 0 1 1 284 0a142 192 0 1 1-284 0a142 192 0 1 1 284 0a142 192 0 1 1-284 0"/>
+        </defs>
+        <image href="assets/img/09_opposite-facade-900.webp" x="-120" y="38" width="560" height="344" preserveAspectRatio="xMidYMid slice" clip-path="url(#oval-clip)"/>
+        <ellipse class="oval__frame" cx="160" cy="210" rx="124" ry="172"/>
+        <text class="oval__text" data-life="ring"><textPath href="#oval-path">дом помнит, как мы живём · дом помнит, как мы живём · дом помнит, как мы живём ·</textPath></text>
+      </svg>
+    </figure>
+    <div class="opposite__body" style="--d:7/-1; --t:1/-1">
+      <h2 id="s8-title">Многие из них <svg class="icon icon--window" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 3h15v18h-15zM12 3v18M4.5 12h15"/></svg> снимают</h2>
+      <div class="prose">
+        <p>Если присмотреться к окнам напротив, многие из этих квартир съёмные. По данным ДОМ.РФ, за пять лет семей, которые снимают жильё, стало больше: было 5,1 миллиона, стало 5,8. Больше половины тех, кто собирается снимать, — молодые семьи.</p>
+        <p>Я понимаю, почему так. Ипотека дорогая, и люди живут «временно» по три, пять, семь лет. Хозяйский диван, нельзя сверлить, непонятно, стоит ли вообще что-то покупать.</p>
+        <p>Но я думаю, что временный дом тоже может быть своим. Просто вещи в нём должны уметь переезжать вместе с тобой, а уют не должен зависеть от ремонта.</p>
+      </div>
+      <ul class="figures" data-p data-stagger>
+        <li><span class="figures__num">5,8 млн</span> семей снимают жильё</li>
+        <li><span class="figures__num">+13%</span> за пять лет</li>
+        <li><span class="figures__num">62%</span> будущих арендаторов — молодые семьи</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="screen screen--builder" id="s9" aria-labelledby="s9-title">
+  <div class="wrap grid">
+    <h2 id="s9-title" style="--d:1/9">Расскажи, как ты живёшь</h2>
+    <div class="prose" style="--d:1/6; --t:1/-1">
+      <p>Когда я обустраивала свою квартиру, я начинала с Pinterest и красивых картинок. И это была ошибка. Начинать надо с себя: во сколько ты встаёшь, работаешь ли из дома, часто ли зовёшь друзей, где сушишь бельё.</p>
+      <p>Попробуй отметить, что из этого про тебя, а я покажу, что из этого следует для комнаты.</p>
+    </div>
+    <div class="builder" id="builder" style="--d:6/-1; --t:1/-1" role="group" aria-labelledby="s9-title">
+      <p class="builder__badge">концепт интерфейса</p>
+      <ul class="chips" aria-label="Привычки">
+        <li><button type="button" class="chip" data-key="work" aria-pressed="true">Работаю из дома</button></li>
+        <li><button type="button" class="chip" data-key="sleep" aria-pressed="true">Сплю (куда же без этого)</button></li>
+        <li><button type="button" class="chip" data-key="cook" aria-pressed="false">Готовлю</button></li>
+        <li><button type="button" class="chip" data-key="guests" aria-pressed="true">Зову гостей</button></li>
+        <li><button type="button" class="chip" data-key="sport" aria-pressed="false">Занимаюсь спортом</button></li>
+        <li><button type="button" class="chip" data-key="craft" aria-pressed="false">Рисую или мастерю</button></li>
+        <li><button type="button" class="chip" data-key="things" aria-pressed="false">Много вещей</button></li>
+        <li><button type="button" class="chip" data-key="quiet" aria-pressed="false">Нужен тихий угол</button></li>
+      </ul>
+      <ul class="reqs" id="reqs" aria-live="polite">
+        <li data-key="work"><b>Работаю из дома</b> — Стол хотя бы 100 на 60 у окна или боком к нему, розетки рядом. <span class="reqs__area">(≈1,0 м²)</span></li>
+        <li data-key="sleep"><b>Сплю</b> — Кровать и проход хотя бы с одной стороны, свет у изголовья. <span class="reqs__area">(≈2,8 м²)</span></li>
+        <li data-key="cook" hidden><b>Готовлю</b> — Свободная поверхность между мойкой и плитой, посуда на уровне рук. <span class="reqs__area">(≈1,6 м²)</span></li>
+        <li data-key="guests"><b>Зову гостей</b> — Раскладной стол и стулья, которые в будни где-то прячутся. <span class="reqs__area">(≈1,4 м²)</span></li>
+        <li data-key="sport" hidden><b>Занимаюсь спортом</b> — Два метра свободного пола, которые не надо каждый раз расчищать. <span class="reqs__area">(≈2,0 м²)</span></li>
+        <li data-key="craft" hidden><b>Рисую или мастерю</b> — Большой стол при дневном свете и закрытый ящик для материалов. <span class="reqs__area">(≈1,3 м²)</span></li>
+        <li data-key="things" hidden><b>Много вещей</b> — Закрытые шкафы до потолка: меньше пола, больше места. <span class="reqs__area">(≈1,1 м²)</span></li>
+        <li data-key="quiet" hidden><b>Нужен тихий угол</b> — Кресло и лампа там, откуда не видно рабочего стола. <span class="reqs__area">(≈1,0 м²)</span></li>
+      </ul>
+      <div class="scale" aria-hidden="true"><span class="scale__used" id="scale-used"></span><span class="scale__pass"></span></div>
+      <p class="scale__legend"><span><i class="key key--used"></i>Сценарии ≈<span id="scale-total">5,2</span> м² + <i class="key key--pass"></i>проходы ≈3,5 м²</span><span>из 25 м² — вся студия</span></p>
+      <p class="builder__hint" id="hint-more" hidden>Кажется, твоя жизнь больше этой комнаты. Это нормально. Значит, какие-то зоны будут делить одно место: один стол для работы и гостей, один кусок пола для спорта и отдыха.</p>
+      <p class="builder__hint" id="hint-less">Всё помещается с запасом. Значит, свободный пол останется свободным.</p>
+      <p class="builder__note">Это пример того, как будет думать ReSpace. Размеры даны как ориентир, а не как норма.</p>
+    </div>
+  </div>
+</section>
+
+<section class="screen screen--respace" id="s10" aria-labelledby="s10-title">
+  <div class="wrap grid">
+    <h2 id="s10-title" style="--d:1/9">Поэтому я и придумала ReSpace</h2>
+    <div class="prose" style="--d:1/6; --t:1/-1">
+      <p>Мне хотелось, чтобы рядом был кто-то, кто спросит не «какой стиль тебе нравится», а «как ты живёшь». И потом спокойно поможет разложить жизнь по комнате, проверит, что шкаф откроется, а диван пройдёт в дверь, и посчитает, во сколько всё это обойдётся.</p>
+      <p class="statement">ReSpace — цифровой помощник, который превращает маленькую квартиру в удобное жильё под твой образ жизни.</p>
+    </div>
+    <div class="sheet" data-scene="respace" style="--d:7/-1; --t:1/-1">
+      <ol class="steps" data-stagger>
+        <li>Короткий разговор о твоём быте: когда работаешь, готовишь, отдыхаешь, кого зовёшь в гости.</li>
+        <li>Несколько сценариев, как разделить комнату и где хранить вещи.</li>
+        <li>Планировка в 3D по реальным размерам твоей квартиры.</li>
+        <li>Мебель из разных магазинов с проверкой габаритов и итоговым бюджетом.</li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section class="screen screen--stay is-night" id="s11" aria-labelledby="s11-title">
+  <div class="wrap grid">
+    <div class="scene" data-scene="stay" data-pin style="--d:1/-1; --len:2.6">
+    <div class="stage">
+    <figure class="stay__frame">
+      <div class="stay__room" aria-hidden="true">
+        <picture><source type="image/avif" srcset="assets/img/00_anchor-900.avif 900w, assets/img/00_anchor-1600.avif 1600w" sizes="(min-width: 1024px) 66vw, 100vw"><img class="cozy-only" src="assets/img/00_anchor-1600.webp" srcset="assets/img/00_anchor-900.webp 900w, assets/img/00_anchor-1600.webp 1600w" sizes="(min-width: 1024px) 66vw, 100vw" width="1600" height="893" alt="" loading="lazy"></picture>
+        <div class="plan-only plan-box" data-plan="good" data-opts="dims"></div>
+      </div>
+      <div class="stay__win"><picture><source type="image/avif" srcset="assets/img/11_window-900.avif 900w, assets/img/11_window-1600.avif 1600w" sizes="100vw"><img src="assets/img/11_window-1600.webp" srcset="assets/img/11_window-900.webp 900w, assets/img/11_window-1600.webp 1600w" sizes="100vw" width="1600" height="900" alt="Окно панельного дома снаружи ночью: внутри горит настольная лампа с абажуром, льняная штора задёрнута наполовину." loading="lazy"></picture><video class="life" data-life="lamp" data-src="assets/loops/web/lamp.mp4" data-webm="assets/loops/web/lamp.webm" muted playsinline loop preload="none" aria-hidden="true"></video><div class="life-fallback stay__glow" aria-hidden="true"></div></div>
+      <canvas class="fly" aria-hidden="true"></canvas>
+    </figure>
+    </div>
+    </div>
+    <h2 id="s11-title" style="--d:1/9">Дом измеряется не только метрами</h2>
+    <div class="prose" style="--d:1/7; --t:1/-1">
+      <p>Чай допит, за окном уже совсем темно. Комната осталась той же, двадцать пять метров. Но теперь, надеюсь, ты смотришь на неё немного иначе: не как на то, чего не хватает, а как на то, что в ней возможно.</p>
+      <p>Хороший дом не обязательно большой. Это место, которое понимает, что для тебя важно. Иногда это рабочий стол у окна, иногда место для друзей, а иногда просто пустой угол, где ничего не нужно делать.</p>
+    </div>
+    <p class="signature" style="--d:9/-1; --t:1/-1">ReSpace<br>Анастасия Лахтюхова<br>ИРКИ НИУ ВШЭ<br>2026<br>Куратор: Селезнёва Наталья Александровна</p>
+  </div>
+</section>
+
+</main>
+
+
+<script src="js/plan.js" defer></script>
+<script src="js/main.js" defer></script>
+<script src="js/scenes.js" defer></script>
+<script src="js/life.js" defer></script>
+</body>
+</html>

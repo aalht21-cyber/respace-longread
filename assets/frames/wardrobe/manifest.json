@@ -1,0 +1,4 @@
+{
+  "desktop": { "dir": "desktop", "count": 80, "ext": "webp", "width": 1200 },
+  "mobile": { "dir": "mobile", "count": 40, "ext": "webp", "width": 900 }
+}

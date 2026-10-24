@@ -1,0 +1,101 @@
+:root {
+  color-scheme: light dark;
+
+  --paper: #F4EEE5;
+  --grey: #E8E0D4;
+  --line: #D4CABB;
+  --ink: #221E1A;
+  --ink-2: #443D36;
+  --mute: #655C52;
+  --accent: #2F5A4C;
+  --lamp: #D9791A;
+  --lamp-soft: rgb(217 121 26 / 0.35);
+  --night: #14110E;
+  --night-ink: #F0E8DC;
+  --night-mute: #A39A8D;
+  --night-line: #2E2924;
+  --night-accent: #8FBFA9;
+
+  --font-sans: "Onest", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --font-serif: "PT Serif", Georgia, "Times New Roman", serif;
+
+  --fs-xs: clamp(0.8125rem, 0.79rem + 0.1vw, 0.875rem);
+  --fs-s: clamp(0.875rem, 0.85rem + 0.12vw, 0.9375rem);
+  --fs-m: clamp(1.0625rem, 1.02rem + 0.19vw, 1.1875rem);
+  --fs-l: clamp(1.375rem, 1.25rem + 0.56vw, 1.75rem);
+  --fs-xl: clamp(2rem, 1.6rem + 1.85vw, 3.25rem);
+  --fs-xxl: clamp(3.5rem, 2rem + 6.7vw, 8rem);
+
+  --lh-tight: 1.05;
+  --lh-head: 1.15;
+  --lh-text: 1.55;
+  --tracking-mono: 0.02em;
+  --tracking-caps: 0.08em;
+  --measure: 62ch;
+
+  --s-1: 8px;
+  --s-2: 16px;
+  --s-3: 24px;
+  --s-4: 32px;
+  --s-6: 48px;
+  --s-8: 64px;
+  --s-12: 96px;
+  --s-16: 128px;
+
+  --cols: 4;
+  --gutter: var(--s-2);
+  --margin: var(--s-2);
+  --maxw: 1440px;
+
+  --hair: 1px;
+  --stroke: 1.5px;
+  --dash: 6 6;
+  --radius: 0;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --cols: 8;
+    --gutter: var(--s-3);
+    --margin: var(--s-4);
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --cols: 12;
+    --gutter: var(--s-3);
+    --margin: var(--s-8);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #181512;
+    --grey: #221E1A;
+    --line: #3A342E;
+    --ink: #F0E8DC;
+    --ink-2: #D2C8BA;
+    --mute: #A39A8D;
+    --accent: #8FBFA9;
+    --lamp: #E0862A;
+    --lamp-soft: rgb(224 134 42 / 0.3);
+    --night: #0F0D0B;
+    --night-line: #29241F;
+  }
+}
+
+:root[data-theme="dark"] {
+  --paper: #181512;
+  --grey: #221E1A;
+  --line: #3A342E;
+  --ink: #F0E8DC;
+  --ink-2: #D2C8BA;
+  --mute: #A39A8D;
+  --accent: #8FBFA9;
+  --lamp: #E0862A;
+  --lamp-soft: rgb(224 134 42 / 0.3);
+  --night: #0F0D0B;
+  --night-line: #29241F;
+}
